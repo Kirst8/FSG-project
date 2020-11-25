@@ -1,0 +1,26 @@
+.html,body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-color:rgb(206, 199, 199);
+   
+}
+
+
+.navbar{
+     padding: 0.6rem;
+    background-color:rgb(240, 185, 185);
+}
+.navbar-nav {
+    float: right;
+}
+.navlink {
+     background: rgba(255,255,255,0.9);
+    padding:10px 20px!important;
+}
+.heading-1 {
+    position: absolute;
+    left:30%;
+    transform:translateX(-30%);
+
+}
