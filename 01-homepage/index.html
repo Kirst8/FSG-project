@@ -9,108 +9,234 @@
     <title>Fondation Sarah Grond</title>
 </head>
 <body>
-<div class="navbar">
-<nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#"><img src="assets/img/logo1.jpg" width="80" height="80" alt="">Fondation Sarah Grond</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 3v2H3V3h9zm4 16v2H3v-2h13zm6-8v2H3v-2h19z"/></svg>
-            </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-link active" href="about.html">About us<span class="sr-only">(current)</span></a>
-      <a class="nav-link active" href="project.html">Projects<span class="sr-only">(current)</span></a>
-      <a class="nav-link active" href="volunteer.html">Volunteer<span class="sr-only">(current)</span></a>
-      <a class="nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
-    </div>
-    <br>
+  <a href="#maincontent" class="screen-reader-link sr-only">Skip to main content</a>
+  <header class="full-width-header fixed-top">
+      <div class="container">
+          <nav class="navbar navbar-expand-md navbar-light bg-white">
+              <a class="navbar-brand" href="index.html"><img src="assets/img/FSG-logo.jpg" alt="logo" class="logo"></a>
+              <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbars" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbars">
+                  <ul class="navbar-nav ml-auto">
+                      <li class="nav-item dropdown home active">
+                          <a class="nav-link d-inline-block" href="index.html">Home<span class="sr-only">(current)</span></a>
+                          <!-- arrow link after home -->
+                          <a class="dropdown-toggle d-inline-block d-md-none" href="index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="sr-only">Jump to section</span></a>
+                          <!-- sub menu -->
+                          <ul class="dropdown-menu sub-menu d-md-none" aria-labelledby="navbarDropdown">
+                              <li class="sub-menu-title">Jump to section</li>
+                              <li class="sub-menu-item">
+                                  <a class="sub-nav-link" href="index.html#Mission">Mission</a>
+                              </li>
+                              <li class="sub-menu-item">
+                                  <a class="sub-nav-link" href="index.html#volunteer">Volunteer</a>
+                              </li>
+                              <li class="sub-menu-item">
+                                  <a class="sub-nav-link" href="index.html#Projects">Projects</a>
+                              </li>
+                          </ul>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="about.html">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="classes.html">Volunteer</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="contact.html">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                          <ul class="social-icons-list">
+                              <li>
+                                  <a target="_blank" href="https://twitter.com/">
+                                      <i class="fab fa-twitter fa-sm" aria-hidden="true"></i>
+                                      <span class="sr-only">Twitter</span>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a target="_blank" href="https://www.linkedin.com/">
+                                      <i class="fab fa-linkedin-in fa-sm" aria-hidden="true"></i>
+                                      <span class="sr-only">LinkedIn</span>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a target="_blank" href="https://www.facebook.com/">
+                                      <i class="fab fa-facebook-f fa-sm" aria-hidden="true"></i>
+                                      <span class="sr-only">Facebook</span>
+                                  </a>
+                              </li>
+                          </ul>
+                      </li>
+                  </ul>
+              </div>
+          </nav>
       </div>
+  </header>
 
-  </div>
-</nav>
-</div>
-<div id=welcomepage class="header">
-       <img src="assets/img/hero-bg.jpg" class="d-block w-100">
-       <div class="header-text">
-       <h1 class="display-2"></h1>
-</div>
-<br>
-<hr>
-<div class="container-fluid">
-<div class="row padding">
-<div class="col-md-4">
-<div class="card">
-<img  class="card-img-top" src="assets/img/about.jpg">
-<div class="card-body">
-<h4 class="card-title">About Us!</h4>
- <a href="about.html" class="btn btn-primary">Know here</a>
-</div>
-</div>
-</div>
-<div class="col-md-4">
-<div class="card">
-<img  class="card-img-top" src="assets/img/help.jpg">
-<div class="card-body">
-<h4 class="card-title">Projects</h4>
- <a href="project.html" class="btn btn-primary">Find here</a>
-</div>
-</div>
-</div>
-<div class="col-md-4">
-<div class="card">
-<img  class="card-img-top" src="assets/img/profull.jpg">
-<div class="card-body">
-<h4 class="card-title">Volunteer</h4>
-  <a href="volunteer.html" class="btn btn-primary">Help here</a>
-</div>
-</div>
-</div>
-
-</div>
-</div>
-<br>
-<hr class="dark">
-<div class="container-fluid">
-<div class="row padding">
-<div class="col-md-4">
-<p class="footer-text">Fondation Sarah Grond
-<br>
-info@fondationsarahgrond.lu
-<br>
-(+352) 621 658 206
-
-</p>
-
-</div>
-<div class="col-md-4">
-<p>Fondation Sarah Grond
-<br>
-
-RCS Luxembourg  G 251
-<br>
-Sarah Grond Foundation (UK) Ltd
-<br>
-Company number 12570995
-
-(pending Charity Commission approval)</p>
-
-
-</div>
-<div class="col-md-4">
-<p>Social Media</p>
-<img src="assets/img/insta.png" alt="">
-<i class="fab fa-facebook-square"></i>
-</p>
-
-</div>
-</div>
-</div>
-</footer>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-
-
-    
+  <main id="maincontent">
+    <!-- start carousel -->
+    <div id="carouselMusicSchool" class="carousel slide slide--home" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <picture>
+                  <img src="assets/img/background.jpg" class="w-100" alt="fondationsarahgrond">
+                </picture>
+                <div class="container">
+                    <div class="carousel-caption">
+                        <blockquote class="blockquote d-none d-md-block mb-3">
+                            <i class="fa fa-quote-left fa-3x"></i>
+                            <p class="mb-0">We help We Care We are there</p>
+                        </blockquote>
+                        <h1 class="carousel-title pt-xl-3 pt-xxl-5">Know more about us</h1>
+                        <p><a class="btn btn-lg btn-primary" href="contact.html" role="button">contact</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <picture>
+                    <img src="assets/img/FSG-logo2.jpg" class="w-100" alt="logo-image">
+                </picture>
+            </div>
+        </div>
+    </div>
+    <section class="container">
+      <div class="row">
+          <div class="col bg-light-green spec-offer-overlay card-shadow-5 rounded-lg">
+              <div class="text-center py-5">
+                  <h2 class="text-white text-shadow-primary">Special Offer</h2>
+                  <h3 class="display-3 text-dark text-shadow-primary">Get a Free Lesson</h3>
+                  <p class="lead lead--larger text-dark w-75 mx-auto pb-4">Bring yourself or your children along for a free class to see how much you will enjoy learning an instrument or singing.</p>
+                  <a class="btn btn-lg btn-white" href="classes.html#class-enquiry-container" role="button">Enquire</a>  
+              </div>
+          </div>
+      </div>
+      <!-- Popular classes -->
+      <div id="popular" class="row">
+          <div class="col text-center pt-5">
+              <h2 class="content-heading mb-4">Popular Classes</h2>
+          </div>
+      </div>
+      <div class="row pt-5 pb-5">
+          <div class="col-md-4 text-center py-2">
+              <div class="card">
+                  <img src="assets/img/hero-bg.jpg" class="card-img-top" alt="Person playing guitar, getting guitar lessons">
+                  <div class="card-body">
+                      <h3 class="card-title content-heading">About</h3>
+                      <p class="card-text">Find out more</p>
+                      <div class="d-block classes-icon mb-2">
+                          <i class="far fa-calendar-alt mr-2"></i><strong>10 weeks</strong>
+                      </div>
+                      <div class="d-block classes-icon mb-2">
+                      </div>
+                      
+                      <a href="classes.html#class-enquiry-container" class="btn btn-lg btn-primary">Apply</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 text-center py-2 d-none d-md-block">
+              <div class="card">
+                  <img src="assets/img/p1.jpg" class="card-img-top" alt="Volunteer">
+                  <div class="card-body">
+                      <h3 class="card-title content-heading">Volunteer</h3>
+                      <p class="card-text">Debatably the most powerful of all solo instruments, the piano is incredibly popular across a remarkable variety of genres, from classical to rock music.</p>
+                      <div class="d-block classes-icon mb-2">
+                      </div>
+                      <div class="d-block classes-icon mb-2">
+                      </div>
+                      
+                      <a href="classes.html#class-enquiry-container" class="btn btn-lg btn-primary">Apply</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 text-center py-2 d-none d-md-block">
+              <div class="card">
+                  <img src="assets/img/p2.jpg" class="card-img-top" alt="Person playing guitar, getting guitar lessons">
+                  <div class="card-body">
+                      <h3 class="card-title content-heading">foster homes</h3>
+                      <p class="card-text">helping foster homes in need and of care and daily activies</p>
+                      <div class="d-block classes-icon mb-2">
+                          <i class="far fa-calendar-alt mr-2"></i><strong></strong>
+                      </div>
+                      <div class="d-block classes-icon mb-2">
+                         
+                      </div>
+                      
+                      <a href="classes.html#class-enquiry-container" class="btn btn-lg btn-primary">Apply</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col text-center pt-0 pb-5">
+              <p><a class="btn btn-lg btn-primary" href="classes.html" role="button">View All Classes</a></p>
+          </div>
+      </div>
+  </section><!-- /.container -->
+  <!-- about the music school -->
+  <section class="row-outer-container bg-light-grey">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6 pt-5 pb-0 pb-md-5">
+                  <h2 class="content-heading mb-4 text-center text-md-left">About the Music School</h2>
+                  <p class="lead">The Music School has a wide range of classes, suitable for all experience levels, from beginners to advanced and for all ages, starting from 5 years old! We are committed to developing a passion for music in all our students and to creating an environment where students can genuinely look forward to their lessons. </p>
+                  <p>The Music School offers high quality Piano, Guitar, Drums, Violin, Trumpet and Singing lessons in  North Dublin.</p>
+                  <p><a class="btn btn-lg btn-primary" href="about.html#about-school" role="button">Read more</a></p>
+              </div>
+              <div class="col-md-6 pt-5 pb-5">
+                  <img class="mt-2 mx-auto two-corner-border" src="assets/img/p1.jpg" alt="images" />
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- benefits of music -->
+  <section id="benefits" class="container ">
+     <div class="row pt-5 pb-lg-5">
+         <div class="col text-center">
+             <h2 class="content-heading">The Benefits of Music</h2>
+         </div>
+     </div>
+      <div class="row pb-5">
+          <div class="col-lg-4 pt-3">
+              <div class="benefit-item py-3">
+                  <h3 class="content-heading"><span class="text-secondary">1.</span> It improves academic skills</h3>
+                  <p>Music and math are highly intertwined. By understanding beat, rhythm, and scales, children are learning how to divide, create fractions, and recognize patterns.</p>
+              </div>
+              <div class="benefit-item py-3">
+                  <h3 class="content-heading"><span class="text-secondary">2.</span> It develops physical skills</h3>
+                  <p>Certain instruments, such as percussion, help children develop coordination and motor skills; they require movement of the hands, arms, and feet.</p>
+              </div>
+              <div class="benefit-item py-3">
+                  <h3 class="content-heading"><span class="text-secondary">3.</span> It cultivates social skills</h3>
+                  <p>Music and math are highly intertwined. By understanding beat, rhythm, and scales, children are learning how to divide, create fractions, and recognize patterns.</p>
+              </div>
+          </div>
+          <div class="col-lg-4 py-3 d-none d-lg-block">
+              <img src="assets/img/hero-bg.jpg" alt="Upright electric guitar" />
+          </div>
+          <div class="col-lg-4 pt-lg-3 pb-3">
+              <div class="benefit-item py-3">
+                  <h3 class="content-heading"><span class="text-secondary">4.</span> It refines discipline and patience</h3>
+                  <p>Learning an instrument teaches children about delayed gratification. The violin, for example, has a steep learning curve.</p>
+              </div>
+              <div class="benefit-item py-3">
+                  <h3 class="content-heading"><span class="text-secondary">5.</span> It boosts self-esteem</h3>
+                  <p>Lessons offer a forum where children can learn to accept and give constructive criticism. Turning negative feedback into positive change helps build self-confidence.</p>
+              </div>
+              <div class="benefit-item py-3">
+                  <h3 class="content-heading"><span class="text-secondary">6.</span> It introduces children to other cultures</h3>
+                  <p>By learning about and playing a variety of instruments, kids can discover how music plays a critical role in other cultures.</p>
+              </div>
+          </div>
+      </div>
+  </section><!-- /.container -->
+  <!-- testimonials -->
+  
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="assets/js/global.js"></script>
 </body>
 </html>
