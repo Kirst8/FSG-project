@@ -208,7 +208,7 @@ footer .logo {
 /* Navbar close X icon */
 .navbar-dark .navbar-toggler.collapsed .navbar-toggler-icon,
 .navbar-light .navbar-toggler.collapsed .navbar-toggler-icon {
-    background-image: url(../images/bs-nav-icon-green.svg);
+    background-image: url(../img/about.jpg);
 }
 .navbar-dark .navbar-toggler-icon,
 .navbar-light .navbar-toggler-icon {
@@ -257,7 +257,7 @@ h1.carousel-title {
     position: relative;
 }
 .title-panel--about {
-    background: url(../images/piano-title-panel-1920x250.jpg) center center;
+    background: url(../img/about.jpg) center center;
 }
 .title-panel--classes {
     background: url(../images/drums-title-panel-1920x250.jpg) center center;
