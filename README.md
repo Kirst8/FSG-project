@@ -78,16 +78,16 @@ The language used to create the form and is the base for the  website.
  The language used to style the HTML5 elements according to the design colour scheme.
 
 #### Bootstrap framework
-=> I used Bootstrap's grid container system as I wanted my project to responsive and through mobile first design 
+ I used Bootstrap's grid container system as I wanted my project to responsive and through mobile first design 
 
 #### Visual-paradigm
-=> Visual helped me see my layout and gave me the opportunity to play with colour scheme, font style, image placement.
+Visual helped me see my layout and gave me the opportunity to play with colour scheme, font style, image placement.
 
 #### FontAwesome
-=> I used the five free FontAwesome icons in my design.
+I used the five free FontAwesome icons in my design.
 
 #### Shutterstock
- This was the source of some of the images in my project.
+This was the source of some of the images in my project.
 
 #### TinyPNG
 I used to compress my images to reduce loading time to reduce the loading on each page.
@@ -117,7 +117,17 @@ Testing how responsive the website will be
 6.Does the contact form make it mandatory to enter the numbers and email address?
 
 ### Problems found
-
+Where to start 
+1.check all buttons on each page to see if they worked correctly the logo is meant to redirect to home page was not working and it was because the links were not added to the navbar correctly on each page 
+2.Testing the how responsive each page will be 
+used google devops to see the responsive design images were the biggest problems because they didn't reduce in size when I tired change to iphone 6/7/8 would stay they same on the cards used to appy to different sections
+3.testing on different devices through deployment
+-ipad response was they same as desktop.
+-iphone response the images were larger and caused a overflow outside screen size. 
+-samsumg A20e response was the same as iphone testing overflow of the screensize.
+this was a css issue that needed to be addressed because images were added to html and i needed to add @media response to css 
+which I didnt have for each type of webpage explorer.
+4.text and button links were issue because i didn't add the appropriate links to each html page,and not each page could redirected to the homepage and that was because of bootstraps carousel which I decided not use and used a jumbotron instead  
 ### Deployment
 #### Deploying my project
  I created my project on GitHub and used GitPod's development environment to write my code.To make my project viewable to others, I deployed my project to GitHub Pages with the following process:

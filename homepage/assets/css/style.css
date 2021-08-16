@@ -251,7 +251,7 @@ h1.carousel-title {
 }
 /* Page Title Panel */
 .title-panel {
-    background: url(../images/acoustic-guitar-title-panel-1920x250.jpg) center center;
+    background: url(../img/about.jpg) center center;
     background-size: cover;
     padding: 40px 0;
     position: relative;
@@ -260,7 +260,7 @@ h1.carousel-title {
     background: url(../img/about.jpg) center center;
 }
 .title-panel--classes {
-    background: url(../images/drums-title-panel-1920x250.jpg) center center;
+    background: url(../img/help.jpg) center center;
 }
 .slide--home:before,
 .title-panel:before {
@@ -289,7 +289,7 @@ h1.page-title {
     color: #008C7E;
 }
 /* --------------------------------- Colours */
-/* this important is required to overwrite bootstrap's important */
+/* this important is required to override bootstrap's important */
 .text-secondary {
     color: #d14200!important;
 }
@@ -324,9 +324,7 @@ h1.page-title {
     left: 0;
     top: 0;
 }
-.row-outer-container.testimonials {
-    background-image: url(../images/violin-background-1920.jpg);
-}
+
 /* Image styling */
 .two-corner-border {
     -webkit-box-shadow: 35px 35px 0px -20px #f5f5f5, -35px -35px 0px -20px #f5f5f5, 0 0 0 10px #41d9c9;
@@ -355,22 +353,7 @@ h1.page-title {
     font-size: 1.1rem;
     margin-bottom: 10px;
 }
-.teachers-card .card-text {
-    font-size: .85rem;
-}
-/* Teachers Card image - The width of the image is 70% of its container, then to move it up so it sticks exactly half out of the container, the negative margin must be -35% as this is half of 70%. The percentage (even top and bottom margin) is calculated with respect to the width of the generated box’s containing block. This is better than pixels as works on all screen sizes. */
-.teachers-card .img-wrap {
-    background-color: #fff;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -35%;
-}
-/* counters the negative top margin on img-wrap */
-.teachers-card {
-    margin-top: 35%;
-    background: #f4f4f4;
-}
+
 /* Fix for internet Explorer */
 .card .img-wrap {
     height: 100%;
@@ -384,26 +367,8 @@ h1.page-title {
     border-radius: 50%;
     border:1px solid #d14200;
 }
-/* Slide Card Testimonials */
-#carouselTestimonials .carousel-item {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.testimonial-card {
-    background-color: transparent;
-    border:none;
-}
-.testimonial-card .card-title {
-    color: #d14200;
-    font-size: 2.5rem;
-}
-.testimonial-card .fas,
-.testimonial-card .card-subtitle {
-    color: #16D9C5;
-}
-.testimonial-card .card-subtitle {
-    font-size: 1.25rem;
-}
+
+
 /* --- Classes Card --- */
 .classes-icon {
     color:#005950;
@@ -486,7 +451,7 @@ h1.page-title {
     -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.1);
             box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.1);
 }
-/* -------------------- Music Classes ----------*/
+/* -------------------- Classes ----------*/
 .class-item {
     background-color: #fff;
     -webkit-box-align: center;
@@ -542,7 +507,7 @@ iframe.location-map {
     border: none;
 }
 /* -------------------- Forms ----------*/
-/* to allow label to be absolutely positioned */
+/* needs to be absolutely positioned in this case centered */
 .form-group {
     position: relative;
     margin-bottom: 1.5rem;
@@ -694,18 +659,6 @@ textarea#message {
 .navbar-nav .social-icons-list li a:hover {
     color: #004039;
 }
-.teachers-card .social-icons-list li a {
-    background-color: #d14200;
-    width: 32px;
-    height: 32px;
-    line-height: 30px;
-}
-.teachers-card .social-icons-list li a:hover {
-    background-color: #005950;
-}
-.teachers-card .social-icons-list li {
-    margin: 5px 5px ;
-}
 
 
 /* ---------------------------------- MEDIA SIZES --------------------*/
@@ -787,7 +740,7 @@ textarea#message {
 @media screen and (min-width: 992px) {
     /* -- Special Offer Overlay -- */
     .spec-offer-overlay {
-        background-image: url(../images/musical-notes-corner.png);
+        background-image: url(../img/FSG-logo.jpg);
         background-repeat: no-repeat;
         background-size: 300px 225px;
         margin-top: -65px;
