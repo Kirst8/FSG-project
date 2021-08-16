@@ -118,28 +118,49 @@ Testing how responsive the website will be
 
 ### Problems found
 Where to start 
-1.check all buttons on each page to see if they worked correctly the logo is meant to redirect to home page was not working and it was because the links were not added to the navbar correctly on each page 
+1.check all buttons on each page to see if they worked correctly the logo is meant to redirect to home page was not working and it was because the links were not added to the navbar correctly on each page.
+
 2.Testing the how responsive each page will be 
-used google devops to see the responsive design images were the biggest problems because they didn't reduce in size when I tired change to iphone 6/7/8 would stay they same on the cards used to appy to different sections
+used google devops to see the responsive design images were the biggest problems because they didn't reduce in size when I tired change to iphone 6/7/8 would stay they same on the cards used to appy to different sections.
+
 3.testing on different devices through deployment
 -ipad response was they same as desktop.
+
 -iphone response the images were larger and caused a overflow outside screen size. 
+
 -samsumg A20e response was the same as iphone testing overflow of the screensize.
+
 this was a css issue that needed to be addressed because images were added to html and i needed to add @media response to css 
 which I didnt have for each type of webpage explorer.
-4.text and button links were issue because i didn't add the appropriate links to each html page,and not each page could redirected to the homepage and that was because of bootstraps carousel which I decided not use and used a jumbotron instead  
+
+4.text and button links were issue because i didn't add the appropriate links to each html page,and not each page could redirected to the homepage and that was because of bootstraps carousel which I decided not use and used a jumbotron instead.
+
 ### Deployment
 #### Deploying my project
  I created my project on GitHub and used GitPod's development environment to write my code.To make my project viewable to others, I deployed my project to GitHub Pages with the following process:
 
 1.I opened the 'Settings' section of my project repository in GitHub.
+
 2.From there, I scrolled to the 'GitHub Pages' section.
-3.Here I selected 'master branch' as my Source.
+
+3.Here I selected 'assets branch' as my Source.
+
 4.This deployed my project on GitHub Pages and allowed me to share the live website with others.
 
 More information about this process can be found on the following link: Configuring a publishing source for your GitHub Pages site
 
 ### Credits
+This was orginally a website that i tried to mimic and different relative paths instead of a one page design.
+https://www.fondationsarahgrond.lu/
+### design and research
+1.get bootstrap templates
+
+2.other milestone projects to help with functionality
+-www.haleyschafer.com/
+
+-https://bourkekev.github.io/ms1-music-school/
+
+-https://mkthewlis.github.io/Milestone-Project-1/
 
 #### Content
 This website and the content was made inorder to improve on an exsiting website orginally made for the foundation.
