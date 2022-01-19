@@ -1,139 +1,88 @@
 # Fondation Sarah Grond
 
 The Fondation Sarah Grond’s mission is to financially help and provide advice to families in need, either directly or indirectly in Luxembourg, the UK or abroad. The main purpose is to help children that have lost one or both parents.
-
-​The foundation is here to support children and families directly by helping them buy material, clothes, equipment ,finance activities and/or food or indirectly by giving money to foster homes, orphanages, support groups and children in underprivileged homes 
-
-​We understand the mental and emotional support in case of a loss of a loved one just as the importance of physical and financial help. The foundation wants to help organizations that  provide these services or to pay for sessions with professionals.
-
-
-To finance these activities, the Fondation Sarah Grond relies on donations from individuals, but is also organizing fund-raising events a number of times a year which will create awareness and increase the number of donations.
-
+The Fondation Sarah Grond is a real established organisation , 
+The purpose of choosing this project is to help grow my knowledge of HTML , CSS and bootstrap wireframes. So I would like to redesign the existing website and make it stand out more and bring new functionality to the website.  
 
 
 ## UX
-### Main objective 
-
-- To make financial help more accessible and provide information and step by step process on what to when losing a loved one. 
-
-- Make it easy for users to navigate their way to the 'Contact Us' page and download links provided for essential information such as paperwork.
-
-- Desgin has to be fully responsive all devices
 
 ### User Experience 
-1.Administration in the event of death in order to get financial help or other support wasn't very clear and the process did take a long time.
-This is not easy to do in general but when grieving it becomes twice as hard.
+####User stories
+As a First time I would like to know that I am in the right place by seeing the name of the organisation and what its intention is 
+As a first time user I would like to see clear navigation buttons as to where I can find Information or contact the organisation and what else they may have to offer  
+As a first time user Information about the organisation . Why it was started and what its future plans are  
 
-2.I want easy navigation, a clear step by step process on what to do and how to do it.
-
-3.I want all information provided on any device and easy responsive design especially on a mobile 
-
-4.I want a website that will provide information and services to those in need or looking for assistance
-
-### Design process
-1.Intuitive and simple navigation includes 'Home', 'About Us', 'Services and information' and 'Contact Us'.
+### Design 
+The colour scheme will go with the colours of the logo so the colour plate will be 
+<h2 align="center"><img src=”https://coolors.co/fbeff4-e85e83-7a27ce-4b0d82"></h2>
+The typography for the project was created through google fonts , font is Roboto Condensed italic 
+Imagery for clear indication of where different pages can be accessed with larger buttons for our older visitors  
  
-2.The colours and the logo have already been thought of , I wanted to bring out the colours more 
+I wanted to keep the design as simple as possible but also wanted each page to display individual information.
 
-3.I used visual-paradigm(link) for wireframe and explored the colours and fonts and which would work well together .
+### Wireframing my project on was prepared on balsamiq and figma  
+Balsamiq wireframes (link)
+Figma wireframes(link)
 
-4.Always keeping the main aim of the website in mind  
-
-### Wireframing my project on visual-paradigm
-
-[The entire workspace can be viewed on visual-paradigm with this link.]
 
 ## Features
  
-### Existing Features
-There will be four separate pages each by clicking on the navigation bar or the four allowcated images for the information.
-...
-### Consistant features
-Header 
--The header will include the navigation bar just under that will be a large FSG logo 
--Under the large FSG image will be four separate images in association with the four topics. 
- About us , service , information and contact us  .
--There will also be a donation information top right of page. 
+### Current Features
+Simple navigation that includes Home, About Us ,Volunteer ,Contact form and links to social media pages
+Volunteer sign up form simple layout for general tasks <h4 align="center"><img src=”https://kirst8.github.io/FSG-project/homepage/volunteer.html”></h4>
+Contact page <h4 align="center"><img src=”https://kirst8.github.io/FSG-project/homepage/contact.html”></h4>
 
-About us 
--Will be an image of Sarah grond and her family by clicking this a new page will load with a paragraph about why the foundation started and what it plans to do. 
-
-Service 
--Image of helping children and by clicking this a new page will load to give information about how the foundation wants to help people or organization
-
-Information 
--Image of confused person this image will load a new page that has links to various website for the paper work you need after losing a loved and different organization to help with grief 
-
-Contact page 
--Will be image of children with a smile  and will link to the contact page. 
-
-Footer 
--Will have the social media links and the donation information and email. 
+### Future Features
+As the project develops i would like to add a translator to the website so people of different nationalities can view the website with ease
+Add a calendar of events form, so people can sign up to help at different events  
 
 ## Technologies Used
-#### HTML5 
-The language used to create the form and is the base for the  website.
+####HTML5 
+The language used to create the form is the base for the website.
 
-#### CSS3
+####CSS3
  The language used to style the HTML5 elements according to the design colour scheme.
 
-#### Bootstrap framework
- I used Bootstrap's grid container system as I wanted my project to responsive and through mobile first design 
+####Bootstrap framework(https://getbootstrap.com/)
+ I used Bootstrap's grid container system as I wanted my project to be responsive through mobile first design and there is no need to reinvent the wheel 
 
-#### Visual-paradigm
-Visual helped me see my layout and gave me the opportunity to play with colour scheme, font style, image placement.
+####Balsamic (https://balsamiq.com/)
+Balsamiq helped me get a rough a idea of how I wanted the website to be set out simple quick sketch of the layout  
 
-#### FontAwesome
+####FontAwesome(https://fontawesome.com/)
 I used the five free FontAwesome icons in my design.
 
-#### Shutterstock
+####Shutterstock
 This was the source of some of the images in my project.
 
-#### TinyPNG
+####TinyPNG
 I used to compress my images to reduce loading time to reduce the loading on each page.
 
-#### Gauger Fonticon Generator
- This free interactive Fonticon Generator allowed me to create a font icon with a Font Awesome icon and style it with the colours from my colour scheme.
-
+###Testing 
 #### W3C Markup Validation Service
  This was a great tool throughout the project to test my HTML and CSS code.
 
-#### W3C Schools
+#### W3Schools
  I've referred to WSC Schools several times whilst building 
 
-### Testing 
-Testing how responsive the website will be 
+####Problems and issues Found
+check all buttons on each page to see if they worked correctly. The logo meant to redirect to the home page was not working and it was because the links were not added to the navbar correctly on each page.
+Testing the how responsive each page will be 
+            I used google devops to see that the responsive design images were the biggest
+            problems because they didn't reduce in size when I tried to change to iphone 6/7/8 and 
+            would stay the same on the cards used to apply to different sections.
 
-1.Google dev ops for help?
+####Testing on different devices through deployment
 
-2.View on random phones and desktops how the website is received?
+The iPad's response was the same as the desktop 
+Iphone response the images were larger and caused an overflow outside screen size.
+Samsung A20e response was the same as iPhone testing overflow of the screen size.
 
-3.How does the website load on different browsers? 
+this was a css issue that needed to be addressed because images were added to html and I needed to add @media response to css 
+which I didn't have for each type of webpage explorer.
 
-4.Does each button work and opens the relevant information?
-
-5.Can the downloadable links reached on all devices?
-
-6.Does the contact form make it mandatory to enter the numbers and email address?
-
-### Problems found
-Where to start 
-1.check all buttons on each page to see if they worked correctly the logo is meant to redirect to home page was not working and it was because the links were not added to the navbar correctly on each page.
-
-2.Testing the how responsive each page will be 
-used google devops to see the responsive design images were the biggest problems because they didn't reduce in size when I tired change to iphone 6/7/8 would stay they same on the cards used to appy to different sections.
-
-3.testing on different devices through deployment
--ipad response was they same as desktop.
-
--iphone response the images were larger and caused a overflow outside screen size. 
-
--samsumg A20e response was the same as iphone testing overflow of the screensize.
-
-this was a css issue that needed to be addressed because images were added to html and i needed to add @media response to css 
-which I didnt have for each type of webpage explorer.
-
-4.text and button links were issue because i didn't add the appropriate links to each html page,and not each page could redirected to the homepage and that was because of bootstraps carousel which I decided not use and used a jumbotron instead.
+text and button links were issued because I didn't add the appropriate links to each html page,and not each page could be redirected to the homepage and that was because of the bootstraps carousel which I decided not to use and used a jumbotron instead.
 
 ### Deployment
 #### Deploying my project
@@ -149,19 +98,19 @@ which I didnt have for each type of webpage explorer.
 
 More information about this process can be found on the following link: Configuring a publishing source for your GitHub Pages site
 
-### Credits
-This was orginally a website that i tried to mimic and different relative paths instead of a one page design.
+###Credits
+This was originally a website that I tried to mimic and different relative paths instead of a one page design.
 https://www.fondationsarahgrond.lu/
-### design and research
+###Design and research
 1.get bootstrap templates
 
 2.other milestone projects to help with functionality
--www.haleyschafer.com/
+www.haleyschafer.com/
 
--https://bourkekev.github.io/ms1-music-school/
+https://bourkekev.github.io/ms1-music-school/
 
--https://mkthewlis.github.io/Milestone-Project-1/
+https://mkthewlis.github.io/Milestone-Project-1/
 
 #### Content
-This website and the content was made inorder to improve on an exsiting website orginally made for the foundation.
-The some images of the website is privately owned and some images were taken from stock imageswebsites
+This website and the content was made in order to improve on an existing website originally made for the foundation.
+The some images of the website is privately owned and some images were taken from stock image websites
