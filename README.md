@@ -2,7 +2,8 @@
 
 The Fondation Sarah Grond’s mission is to financially help and provide advice to families in need, either directly or indirectly in Luxembourg, the UK or abroad. The main purpose is to help children that have lost one or both parents.
 The Fondation Sarah Grond is a real established organisation , 
-The purpose of choosing this project is to help grow my knowledge of HTML , CSS and bootstrap wireframes. So I would like to redesign the existing website and make it stand out more and bring new functionality to the website.  
+The purpose of choosing this project is to help grow my knowledge of HTML , CSS and bootstrap wireframes. So I would like to redesign the existing website and make it stand out more and bring new functionality to the website.
+<img src="assets/img/responsive.png">
 
 
 ## UX
@@ -17,7 +18,7 @@ As a first time user Information about the organisation . Why it was started and
 
 ### Design 
 The colour scheme will go with the colours of the logo so the colour plate will be 
-<img src="FSG colour.png" width="800" />
+<img src="assest/img/FSG colour.png" width="800" />
 The typography for the project was created through google fonts , font is Roboto Condensed italic 
 Imagery for clear indication of where different pages can be accessed with larger buttons for our older visitors  
  
@@ -35,9 +36,9 @@ Figma wireframes(link)
 ### Current Features
 Simple navigation that includes Home, About Us ,Volunteer ,Contact form and links to social media pages.
 
-Volunteer sign up form simple layout for general tasks
+Volunteer sign up form simple layout for general tasks <img src="assets/img/volunterr-form.png" width="800" />
 
-Contact page 
+Contact page <img src="assets/img/contact.png" width="800" />
 
 ### Future Features
 As the project develops i would like to add a translator to the website so people of different nationalities can view the website with ease
