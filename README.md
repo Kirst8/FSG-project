@@ -10,8 +10,10 @@ The purpose of choosing this project is to help grow my knowledge of HTML , CSS 
 ### User Experience 
 #### User stories
 As a First time I would like to know that I am in the right place by seeing the name of the organisation and what its intention is 
-As a first time user I would like to see clear navigation buttons as to where I can find Information or contact the organisation and what else they may have to offer  
-As a first time user Information about the organisation . Why it was started and what its future plans are  
+
+As a first time user I would like to see clear navigation buttons as to where I can find Information or contact the organisation and what else they may have to offer.  
+
+As a first time user Information about the organisation . Why it was started and what its future plans are.  
 
 ### Design 
 The colour scheme will go with the colours of the logo so the colour plate will be 
@@ -33,9 +35,9 @@ Figma wireframes(link)
 ### Current Features
 Simple navigation that includes Home, About Us ,Volunteer ,Contact form and links to social media pages.
 
-Volunteer sign up form simple layout for general tasks <h4 align="center"><img src=”https://kirst8.github.io/FSG-project/homepage/volunteer.html”></h4>.
+Volunteer sign up form simple layout for general tasks
 
-Contact page <h4 align="center"><img src=”https://kirst8.github.io/FSG-project/homepage/contact.html”></h4>.
+Contact page 
 
 ### Future Features
 As the project develops i would like to add a translator to the website so people of different nationalities can view the website with ease
