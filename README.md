@@ -1,125 +1,194 @@
 # Fondation Sarah Grond
+<h1 align="center">Fondation Sarah Grond</h1>
 
-The Fondation Sarah Grond’s mission is to financially help and provide advice to families in need, either directly or indirectly in Luxembourg, the UK or abroad. The main purpose is to help children that have lost one or both parents.
-The Fondation Sarah Grond is a real established organisation , 
-The purpose of choosing this project is to help grow my knowledge of HTML , CSS and bootstrap wireframes. So I would like to redesign the existing website and make it stand out more and bring new functionality to the website.
-<img src="images/responsive.png">
+[View the live project here.]
 
+The Fondation Sarah Grond’s mission is to financially help and provide advice to families in need, either directly or indirectly in Luxembourg, the UK or abroad. The main purpose is to help children that have lost one or both parents. The Fondation Sarah Grond is a real established organisation , The purpose of choosing this project is to help grow my knowledge of HTML , CSS and bootstrap wireframes. So I would like to redesign the existing website and make it stand out more and bring new functionality to the website.
 
-## UX
+<h2 align="center"></h2>
 
-### User Experience 
-#### User stories
-As a First time I would like to know that I am in the right place by seeing the name of the organisation and what its intention is 
+## User Experience (UX)
 
-As a first time user I would like to see clear navigation buttons as to where I can find Information or contact the organisation and what else they may have to offer.  
+-   ### User stories
 
-As a first time user Information about the organisation . Why it was started and what its future plans are.  
+    -   #### First Time Visitor Goals
 
-### Design 
-The colour scheme will go with the colours of the logo so the colour plate will be 
-<img src="images/FSG colour.png" width="800"/>
-The typography for the project was created through google fonts , font is Roboto Condensed italic 
-Imagery for clear indication of where different pages can be accessed with larger buttons for our older visitors  
- 
-I wanted to keep the design as simple as possible but also wanted each page to display individual information.
+ As a First time I would like to know that I am in the right place by seeing the name of the organisation and what its intention is
 
-### Wireframing my project on was prepared on balsamiq and figma  
+As a first time user I would like to see clear navigation buttons as to where I can find Information or contact the organisation and what else they may have to offer.
 
-Balsamiq wireframes (link)
+As a first time user Information about the organisation . Why it was started and what its future plans are.
 
-Figma wireframes(link)
+    -   #### Returning Visitor Goals
 
+        1. As a Returning Visitor, I would like to see interaction between user and the product so images of current users and how they have like the service. 
+        2. As a Returning Visitor, I would like to see upcoming events or news. 
+        3. As a Returning Visitor, I want to find community links.
+
+-   ### Design
+    -   #### Colour Scheme
+        -  The colour scheme will go with the colours of the logo so the colour plate will be
+    -   #### Typography
+        -  The typography for the project was created through google fonts , font is Roboto Condensed italic Imagery for clear indication of where different pages can be accessed with larger buttons for our older visitors I wanted to keep the design as simple as possible but also wanted each page to display individual information.
+    -   #### Imagery
+        -   Imagery is important. for this I used a video to help people better understand the product and the service provided  
+
+*   ### Wireframes
+
+    -   Home Page Wireframe - [View](https://github.com/)
+
+    -   Mobile Wireframe - [View](https://github.com/)
+
+    -   Contact Us Page Wireframe - [View](https://github.com/)
 
 ## Features
- 
-### Current Features
-Simple navigation that includes Home, About Us ,Volunteer ,Contact form and links to social media pages.
 
-Volunteer sign up form simple layout for general tasks <img src="images/volunterr-form.png" width="800" />
+-   As the project develops i would like to add a translator to the website so people of different nationalities can view the website with ease Add a calendar of events form, so people can sign up to help at different events.
 
-Contact page <img src="images/contact.png" width="800" />
 
-### Future Features
-As the project develops i would like to add a translator to the website so people of different nationalities can view the website with ease
-Add a calendar of events form, so people can sign up to help at different events.  
 
 ## Technologies Used
-#### HTML5 
 
-The language used to create the form is the base for the website.
+### Languages Used
 
-#### CSS3
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-The language used to style the HTML5 elements according to the design colour scheme.
+### Frameworks, Libraries & Programs Used
 
-#### Bootstrap framework(https://getbootstrap.com/)
- I used Bootstrap's grid container system as I wanted my project to be responsive through mobile first design and there is no need to reinvent the wheel 
+1. [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
+1. [magnificpop.css:]
+    - thsi was used in the main navigations menu and images
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+1. [jQuery:](https://jquery.com/)
+    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+1. [Pexels](https://www.pexels.com/)
+    - Pexels were used for all the images and videos of this websites 
+1. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 
-#### Balsamic (https://balsamiq.com/)
-Balsamiq helped me get a rough a idea of how I wanted the website to be set out simple quick sketch of the layout  
+## Testing
 
-#### FontAwesome(https://fontawesome.com/)
-I used the five free FontAwesome icons in my design.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-#### Shutterstock
-This was the source of some of the images in my project.
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 
-#### TinyPNG
-I used to compress my images to reduce loading time to reduce the loading on each page.
+### Testing User Stories from User Experience (UX) Section
 
-### Testing 
-#### W3C Markup Validation Service
- This was a great tool throughout the project to test my HTML and CSS code.
+-   #### First Time Visitor Goals
 
-#### W3Schools
- I've referred to WSC Schools several times whilst building 
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
-#### Problems and issues Found
-check all buttons on each page to see if they worked correctly. The logo meant to redirect to the home page was not working and it was because the links were not added to the navbar correctly on each page.
-Testing the how responsive each page will be 
-            I used google devops to see that the responsive design images were the biggest
-            problems because they didn't reduce in size when I tried to change to iphone 6/7/8 and 
-            would stay the same on the cards used to apply to different sections.
+        1. Upon entering the site, users can easiy see that this site is intened for excersie and well being with the use of a video banner
+        2. the navigaiton menus can easyliy be seen just below the video banner.
+        3. all information can be found in the nav bar and easy to navigate because of the clear icon that have benn used 
 
-#### Testing on different devices through deployment
+    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
-The iPad's response was the same as the desktop 
-Iphone response the images were larger and caused an overflow outside screen size.
-Samsung A20e response was the same as iPhone testing overflow of the screen size.
+        1. the site is simple design on one page with pop ups and images to show cleary what the product is.
 
-this was a css issue that needed to be addressed because images were added to html and I needed to add @media response to css 
-which I didn't have for each type of webpage explorer.
+    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
+       1. users can call email or send a message over the webiste where they can contact us for more information if they wish or if they want to sign up for the service.
 
-text and button links were issued because I didn't add the appropriate links to each html page,and not each page could be redirected to the homepage and that was because of the bootstraps carousel which I decided not to use and used a jumbotron instead.
+-   #### Returning Visitor Goals
 
-### Deployment
-#### Deploying my project
- I created my project on GitHub and used GitPod's development environment to write my code.To make my project viewable to others, I deployed my project to GitHub Pages with the following process:
+    1. As a Returning Visitor, I would like to see interaction between user and the product so images of current users and how they have like the service.
 
-1.I opened the 'Settings' section of my project repository in GitHub.
+        1. this can been seen in our gallery with all images of the service and user interaction wit the service
+        2. they can view images with additional tips attached about the service
 
-2.From there, I scrolled to the 'GitHub Pages' section.
+    2. As a Returning Visitor, I would like to see upcoming events or news.
 
-3.Here I selected 'assets branch' as my Source.
+        1. The navigation the contact form will have a check box wether they want to sign up for emaoils and they will recieve all upcoming events by email
+    3. As a Returning Visitor, Soical media links 
+        1. all links can be found in about us section where they can click join and follow
 
-4.This deployed my project on GitHub Pages and allowed me to share the live website with others.
+### Further Testing
 
-More information about this process can be found on the following link: Configuring a publishing source for your GitHub Pages site
+-   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   A large amount of testing was done to ensure that all pages were linking correctly.
+-   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-### Credits
-This was originally a website that I tried to mimic and different relative paths instead of a one page design.
-https://www.fondationsarahgrond.lu/
-### Design and research
-1.get bootstrap templates
+### Known Bugs
 
-2.other milestone projects to help with functionality
-www.haleyschafer.com/
+-   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
+-   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
 
-https://bourkekev.github.io/ms1-music-school/
+## Deployment
 
-https://mkthewlis.github.io/Milestone-Project-1/
+### GitHub Pages
 
-#### Content
-This website and the content was made in order to improve on an existing website originally made for the foundation.
-The some images of the website is privately owned and some images were taken from stock image websites
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+
+7. Press Enter. Your local clone will be created.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
+
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+## Credits
+
+### Code
+
+-  
+
+-   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+
+-   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+
+### Content
+
+-   All content was written by the developer.
+
+-
+
+### Media
+
+-   All Images were created by the developer.
+
