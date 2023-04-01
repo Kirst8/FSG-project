@@ -19,12 +19,6 @@ As a first time user I would like to see clear navigation buttons as to where I 
 
 As a first time user Information about the organisation . Why it was started and what its future plans are.
 
-    -   #### Returning Visitor Goals
-
-        1. As a Returning Visitor, I would like to see interaction between user and the product so images of current users and how they have like the service. 
-        2. As a Returning Visitor, I would like to see upcoming events or news. 
-        3. As a Returning Visitor, I want to find community links.
-
 -   ### Design
     -   #### Colour Scheme
         -  The colour scheme will go with the colours of the logo so the colour plate will be
